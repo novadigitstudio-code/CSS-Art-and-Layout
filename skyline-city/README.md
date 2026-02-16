@@ -1,31 +1,29 @@
 # Design with Code 🎨
 
-Bienvenue dans ma collection de projets visuels et d'interfaces réalisés exclusivement en **pur CSS**. Ici, je repousse les limites du design sans utiliser d'images externes, en me concentrant sur la puissance des dégradés, du positionnement et des variables CSS.
+Bienvenue dans ma collection de projets visuels et d'interfaces réalisés exclusivement en **pur CSS**. Ce dépôt regroupe des défis techniques où le design est généré uniquement par le code.
 
-## 🏙️ Skyline City (Projet en vedette)
+## 🏙️ Skyline City
 
-Ce projet est une démonstration de création artistique via le code. Il s'agit d'une ligne d'horizon urbaine dynamique qui s'adapte à la taille de l'écran.
+Ce projet est une démonstration de création artistique via le code. Il s'agit d'une ligne d'horizon urbaine dynamique avec un mode nuit automatique.
 
-### Ce que j'ai maîtrisé sur ce projet :
-- **CSS Art & Gradients** : Utilisation intensive de `linear-gradient` et `repeating-linear-gradient` pour créer des textures (fenêtres, briques, ombres).
-- **Techniques de calques** : Superposition de plusieurs dégradés d'arrière-plan pour créer de la profondeur.
-- **Variables CSS (`:root`)** : Gestion d'une palette de couleurs centralisée.
-- **Responsive Design** : Création d'un mode "nuit" automatique via les `@media` queries.
-- **Positionnement complexe** : Utilisation de `flexbox`, `relative` et `absolute` pour structurer les gratte-ciels.
+### Compétences techniques validées :
+- **CSS Art** : Création de textures complexes avec `repeating-linear-gradient`.
+- **Architecture CSS** : Gestion d'une palette dynamique via les variables `:root`.
+- **Responsive Design** : Adaptation des couleurs et des formes via les `@media` queries.
+- **Superposition** : Maîtrise des calques de background multiples.
 
-### Aperçu du projet
+### Aperçus
 
-| Version Desktop | Version Mobile (Mode Nuit) |
-| :--- | :--- |
-| ![Skyline Desktop](./skyline-city/skyline-desktop.png) | ![Skyline Mobile](./skyline-city/skyline-mobil.png) |
+![Skyline Desktop](./skyline-city/skyline-desktop.png)
+*Version Desktop*
 
----
-
-## 🛠️ Installation et Visualisation
-
-Chaque projet est contenu dans son propre dossier. Pour voir le rendu :
-1. Clonez le dépôt.
-2. Ouvrez le fichier `index.html` du projet souhaité (ex: `/skyline-city/index.html`) dans votre navigateur.
+![Skyline Mobile](./skyline-city/skyline-mobil.png)
+*Version Mobile (Mode Nuit)*
 
 ---
-*Projet réalisé dans le cadre de mon parcours de développeur chez **NovaDigit Studio**.*
+
+### 🎓 Origine du projet
+Ce projet a été réalisé dans le cadre du cursus **Responsive Web Design de freeCodeCamp**. C'est un atelier pratique qui permet de pousser la manipulation des dégradés CSS dans leurs retranchements.
+
+---
+*Développé avec passion dans le cadre de mon apprentissage pour **NovaDigit Studio**.*
