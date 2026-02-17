@@ -1,0 +1,154 @@
+/* --- Charte NovaDigit Studio --- */
+:root {
+  --bg-dark: #0f172a;
+  --accent-cyan: #0ea5e9;
+  --text-soft: #94a3b8;
+  --piano-chassis: #1e293b; /* Bleu ardoise foncé premium */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.header h1 {
+  color: var(--accent-cyan);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+/* --- Structure du Piano --- */
+#piano {
+  background-color: var(--piano-chassis);
+  width: 992px;
+  height: 290px;
+  margin: 0 auto;
+  padding: 90px 20px 0 20px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.studio-logo {
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.studio-logo span {
+  color: var(--accent-cyan);
+}
+
+.keys {
+  background-color: #040404;
+  width: 949px;
+  height: 180px;
+  padding-left: 2px;
+  overflow: hidden; /* C'est ici que la magie du "découpage" opère */
+}
+
+.key {
+  background-color: #ffffff;
+  position: relative;
+  width: 41px; /* Largeur fixe respectée */
+  height: 175px;
+  margin: 2px;
+  float: left;
+  border-radius: 0 0 3px 3px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+/* Interaction NovaDigit */
+.key:hover {
+  background-color: #f1f5f9;
+}
+
+.key:active {
+  background-color: var(--accent-cyan);
+}
+
+.key.black--key::after {
+  background-color: #1d1e22;
+  content: "";
+  position: absolute;
+  left: -18px;
+  width: 32px;
+  height: 100px;
+  border-radius: 0 0 3px 3px;
+  transition: background-color 0.1s ease;
+}
+
+.key.black--key:active::after {
+  background-color: #334155;
+}
+
+/* --- Responsive (Comportement original respecté) --- */
+@media (max-width: 768px) {
+  #piano {
+    width: 358px;
+  }
+
+  .keys {
+    width: 318px;
+  }
+
+  .studio-logo {
+    font-size: 0.9rem;
+    top: 15px;
+  }
+}
+
+/* Empêche les bugs sur tablettes intermédiaires */
+@media (max-width: 1199px) and (min-width: 769px) {
+  #piano {
+    max-width: 100%;
+  }
+}
+
+/* --- Footer & Signature --- */
+.footer {
+  margin-top: 50px;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: var(--text-soft);
+  margin: 5px 0;
+}
+
+.branding span {
+  color: var(--accent-cyan);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
