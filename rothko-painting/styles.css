@@ -1,0 +1,106 @@
+/* --- Identité Visuelle NovaDigit Studio --- */
+:root {
+  --bg-dark: #0f172a; /* Ton bleu nuit de certif */
+  --accent-cyan: #0ea5e9; /* Ton bleu électrique */
+  --text-soft: #94a3b8;
+  --frame-color: #000000;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: #ffffff;
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.header h1 {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: var(--accent-cyan); /* Titre aux couleurs du studio */
+}
+
+/* --- Le Cadre --- */
+.frame {
+  border: 35px solid var(--frame-color);
+  max-width: 500px;
+  width: 95%;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: var(--frame-color);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+
+/* --- La Toile (On garde les couleurs de l'œuvre originale pour l'art) --- */
+.canvas {
+  width: 100%;
+  height: 600px;
+  background-color: #4d0f00;
+  overflow: hidden;
+  filter: blur(2px);
+}
+
+.one {
+  width: 90%;
+  height: 150px;
+  background-color: #efb762;
+  margin: 20px auto;
+  box-shadow: 0 0 3px 3px #efb762;
+  border-radius: 9px;
+  transform: rotate(-0.6deg);
+  filter: blur(1px);
+}
+
+.two {
+  width: 95%;
+  height: 200px;
+  background-color: #8f0401;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 3px 3px #8f0401;
+  border-radius: 8px 10px;
+  transform: rotate(0.4deg);
+  filter: blur(1px);
+}
+
+.three {
+  width: 91%;
+  height: 28%;
+  background-color: #b20403;
+  margin: auto;
+  filter: blur(2px);
+  box-shadow: 0 0 5px 5px #b20403;
+  border-radius: 30px 25px 60px 12px;
+}
+
+/* --- Footer & Signature --- */
+.footer {
+  margin-top: 40px;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: var(--text-soft);
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+
+.branding span {
+  color: var(--accent-cyan);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
