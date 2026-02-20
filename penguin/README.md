@@ -1,13 +1,12 @@
-
 # Penguin Lab 🐧
 
-Ce projet est une exploration du design d'interface et de la gestion dynamique du lighting. Il met en scène un personnage animé dans un environnement capable de basculer entre un mode jour et un mode nuit profond.
+Ce projet est un exercice approfondi sur l'utilisation des variables CSS et la construction de formes complexes. L'objectif initial est de manipuler les propriétés de positionnement et les pseudo-éléments pour donner vie à un personnage interactif.
 
 ### Compétences techniques validées :
-- **Advanced Lighting** : Simulation d'un éclairage lunaire (Rim Light) via des gradients directionnels et des effets de bordure sur les montagnes.
-- **Atmospheric Transitions** : Gestion d'une transition symétrique et fluide (1.5s) pour simuler l'aube et le crépuscule.
-- **State Management** : Utilisation de JavaScript Vanilla pour le basculement dynamique des classes de l'environnement.
-- **Visual Preservation** : Adaptation de l'ambiance nocturne (Dark Mode) sans altérer l'identité visuelle originale du personnage.
+- **CSS Variables** : Utilisation intensive de `:root` pour piloter la palette de couleurs du personnage de manière centralisée.
+- **Pseudo-elements** : Maîtrise de `::before` et `::after` pour ajouter des détails morphologiques sans surcharger le HTML.
+- **Complex Shapes** : Utilisation de `border-radius` avec des valeurs multiples pour sculpter les courbes du manchot et son environnement.
+- **Dynamic Lighting (NovaDigit Extension)** : Développement d'un Dark Mode réactif au clic sur l'astre, intégrant des jeux d'ombres et de lumières sur les montagnes (Rim Light).
 
 ### Aperçus
 ![Penguin Light](./penguin-light.png)
@@ -19,7 +18,7 @@ Ce projet est une exploration du design d'interface et de la gestion dynamique d
 ---
 
 ### 🎓 Origine du projet
-Ce projet a été initialisé via le cursus [Responsive Web Design de freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/). La structure de base (Light Mode) a servi de fondation à une extension créative poussée par **NovaDigit Studio** pour maîtriser les jeux d'ombres et de lumières complexes.
+Ce projet a été réalisé dans le cadre du cursus [Responsive Web Design de freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/). C'est un atelier guidé qui permet de maîtriser l'architecture CSS. Pour pousser l'exercice plus loin, j'ai travaillé avec mon partenaire IA pour implémenter un basculement d'environnement complet et un éclairage nocturne dynamique.
 
 ---
 *Développé avec passion pour **NovaDigit Studio**.*
