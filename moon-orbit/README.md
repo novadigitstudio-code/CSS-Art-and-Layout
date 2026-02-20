@@ -9,10 +9,10 @@ Ce projet explore la création d'un système orbital dynamique en pur CSS. C'est
 - **Transformations 3D** : Utilisation des propriétés `transform` pour donner une sensation de volume et de mouvement dans l'espace.
 
 ### Aperçus
-![Moon Orbit Desktop](./moon-orbit-desktop.png)
+![Moon Orbit Desktop](./moon-orbit-desktop-result.png)
 *Version Desktop - NovaDigit Studio*
 
-![Moon Orbit Mobile](./moon-orbit-mobile.png)
+![Moon Orbit Mobile](./moon-orbit-mobile-result.png)
 *Version Mobile - NovaDigit Studio*
 
 ---
