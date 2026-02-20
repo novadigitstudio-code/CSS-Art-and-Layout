@@ -1,42 +1,24 @@
-# Construire une Orbite Lunaire - NovaDigit Studio
+# Moon Orbit 🌑
 
-Ce projet est une application web d'animation réalisée dans le cadre du cursus de certification **Responsive Web Design** de **freeCodeCamp**. L'objectif est de créer une animation fluide de la Lune orbitant autour de la Terre en utilisant exclusivement **HTML5** et **CSS3**.
+Ce projet explore la création d'un système orbital dynamique en pur CSS. C'est un exercice sur la gestion des trajectoires elliptiques, des cycles d'animation et de la profondeur visuelle (perspective spatiale).
 
-Ce laboratoire met l'accent sur la maîtrise des transformations complexes (`transform`), du positionnement absolu et de la gestion des animations cycliques avec les `@keyframes`.
+### Compétences techniques validées :
+- **Advanced Animations** : Utilisation de `keyframes` complexes pour simuler une orbite elliptique fluide.
+- **Layering & Depth** : Maîtrise du `z-index` pour gérer le passage d'un astre devant et derrière un autre (occlusion).
+- **Glow Effects** : Application de filtres `box-shadow` et `drop-shadow` pour simuler l'éclat lumineux des corps célestes.
+- **Transformations 3D** : Utilisation des propriétés `transform` pour donner une sensation de volume et de mouvement dans l'espace.
 
-## Aperçu du projet
+### Aperçus
+![Moon Orbit Desktop](./moon-orbit-desktop.png)
+*Version Desktop - NovaDigit Studio*
 
-### Version Bureau (Desktop)
-![Aperçu Desktop](./moon-orbit-desktop-result.png)
-
-### Version Mobile
-![Aperçu Mobile](./moon-orbit-mobil-result.png)
-
-## Objectifs d'apprentissage
-
-Ce projet a permis de valider les compétences suivantes :
-* **Positionnement Absolu Avancé** : Centrage précis d'éléments dans un conteneur parent en utilisant le combo `top: 50%`, `left: 50%` et `transform: translate(-50%, -50%)`.
-* **Animations CSS (@keyframes)** : Création d'une rotation infinie à 360 degrés sans décalage visuel.
-* **Hiérarchie Z-index** : Gestion de l'empilement des éléments (Terre, Orbite, Lune) pour un rendu visuel cohérent.
-* **Cohérence Visuelle NovaDigit Studio** : Intégration du projet dans une charte graphique unifiée (fond bleu nuit profond, typographie espacée, footer signature).
-
-## Technologies utilisées
-
-* **HTML5** : Structure sémantique du système orbital et du footer.
-* **CSS3** : 
-    * Flexbox pour le layout global.
-    * Animations personnalisées pour le mouvement orbital.
-    * Variables CSS (`:root`) pour une gestion rigoureuse de la palette de couleurs NovaDigit.
-
-## Structure du Projet
-
-Le projet suit la structure standard de NovaDigit Studio pour assurer une intégration fluide dans le hub global :
-* Un `header` avec un titre en majuscules et espacement large.
-* Un `main` centré pour l'animation.
-* Un `footer` signature incluant la mention de maîtrise technique et le branding NovaDigit Studio.
+![Moon Orbit Mobile](./moon-orbit-mobile.png)
+*Version Mobile - NovaDigit Studio*
 
 ---
-<footer class="footer">
-  <p>Maîtrise des animations @keyframes et des transformations CSS</p>
-  <p class="branding">Réalisé par <span>NovaDigit Studio</span></p>
-</footer>
+
+### 🎓 Origine du projet
+Ce projet a été réalisé dans le cadre du cursus [Responsive Web Design de freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/). C'est un atelier pratique qui permet d'approfondir la manipulation des animations CSS et la gestion des plans.
+
+---
+*Développé avec passion pour **NovaDigit Studio**.*
